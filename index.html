@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulário</title>
+</head>
+<body>
+
+<h1>Formulário de Cadastro</h1>
+
+<form action="#" method="POST">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required><br><br>
+    
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label>Função:</label><br>
+    <input type="radio" id="dev" name="funcao" value="dev" required>
+    <label for="dev">Dev</label><br>
+    <input type="radio" id="techrecruiter" name="funcao" value="techrecruiter">
+    <label for="techrecruiter">Tech Recruiter</label><br><br>
+    
+    <label for="data">Selecione uma data:</label>
+    <input type="date" id="data" name="data" required><br><br>
+    
+    <input type="submit" value="Enviar">
+</form>
+
+</body>
+</html>
